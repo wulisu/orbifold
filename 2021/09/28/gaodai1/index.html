@@ -541,11 +541,31 @@ MathJax.Hub.Queue(function() {
             </li>
           
             <li class="search-li">
-              <a href="http://arxiv.org/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>arXiv</a>
+              <a href="http://higeom.math.msu.su/people/taras/english.html" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>Taras Panov’s homepage</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="https://www.math.ucdavis.edu/~kapovich/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>Kapovich’s homepage</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="https://pi.math.cornell.edu/~hatcher/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>Hatcher’s homepage</a>
             </li>
           
             <li class="search-li">
               <a href="http://www.mathwhl.cn/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>伍海亮的主页</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="http://arxiv.org/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>arXiv</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="https://math.stackexchange.com/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>大牛云集的数学论坛</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="http://www.math.org.cn/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>冷了的数学家园</a>
             </li>
           
         </ul>
@@ -556,7 +576,7 @@ MathJax.Hub.Queue(function() {
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">一根韭零后，一只卷卷无为的青椒。</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">一根快乐的韭零后，一只卷卷向上的青椒。</div>
   	  	
     	</section>
     
@@ -630,5 +650,20 @@ MathJax.Hub.Queue(function() {
 
 </div>
   </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
