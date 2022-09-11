@@ -184,11 +184,18 @@
 <li>邮件主题、pdf文件命名：<font color='red'>土木/化工4班-姓名-学号-当前周次</font>；</li>
 <li>pdf文件获取途径：<ul>
 <li>扫描全能王app 扫描纸质作业；</li>
-<li>pad等笔记类软件生成</li>
-<li>latex生成</li>
+<li>pad等笔记类软件生成；</li>
+<li>latex生成；</li>
 </ul>
 </li>
-<li>特别注意：<br>  -不要使用超大附件<br>  -不要提交jpg、Zip、doc格式文件</li>
+<li>特别注意：<ul>
+<li>不要使用超大附件；</li>
+<li>不要提交jpg、Zip、doc格式文件；</li>
+<li>不要使用outlook邮箱；</li>
+<li>不用在邮件正文中传图片；</li>
+<li>纸质作业标上学号.</li>
+</ul>
+</li>
 </ul>
 <h2 id="课件"><a href="#课件" class="headerlink" title="课件"></a>课件</h2><p><a href="http://wulisu.cn/pdf/LA1-slides.pdf">Lecture-1</a></p>
 <p><a href="http://wulisu.cn/pdf/LA2-slides.pdf">Lecture-2</a> 2022.9.4</p>
@@ -664,5 +671,20 @@ MathJax.Hub.Queue(function() {
 
 </div>
   </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
