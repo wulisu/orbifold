@@ -225,7 +225,7 @@
 <tr>
 <td style="text-align:left"><a href="http://wulisu.cn/pdf/LA3-slides.pdf">Lecture-3</a>  (9.4)</td>
 <td style="text-align:left"><a href="http://wulisu.cn/pdf/LA8-slides.pdf">Lecture-8</a>  (9.26)</td>
-<td style="text-align:left"></td>
+<td style="text-align:left"><a href="http://wulisu.cn/pdf/LA13-slides.pdf">Lecture-13</a>  (10.16)</td>
 </tr>
 <tr>
 <td style="text-align:left"><a href="http://wulisu.cn/pdf/LA4-slides.pdf">Lecture-4</a>  (9.7)</td>
@@ -699,5 +699,20 @@ MathJax.Hub.Queue(function() {
 
 </div>
   </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
