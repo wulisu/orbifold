@@ -6,17 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://wulisu.cn">
-  <title>拓扑学2023 | Lisu Wu</title>
+  <title>Curriculum Vitae | Lisu Wu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="2023.9.6">
+  <meta name="description" content="2022.8.28">
 <meta property="og:type" content="article">
-<meta property="og:title" content="拓扑学2023">
-<meta property="og:url" content="http://wulisu.cn/2023/09/06/topology2023/index.html">
+<meta property="og:title" content="Curriculum Vitae">
+<meta property="og:url" content="http://wulisu.cn/2022/10/01/CV/index.html">
 <meta property="og:site_name" content="Lisu Wu">
-<meta property="og:description" content="2023.9.6">
+<meta property="og:description" content="2022.8.28">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2023-09-06T12:32:40.747Z">
-<meta property="article:modified_time" content="2024-02-25T14:02:01.419Z">
+<meta property="article:published_time" content="2022-10-01T03:09:06.098Z">
+<meta property="article:modified_time" content="2022-10-01T04:59:46.961Z">
 <meta property="article:author" content="Lisu Wu">
 <meta name="twitter:card" content="summary">
   
@@ -59,7 +59,7 @@
 			
 				<li><a href="/">主页</a></li>
 	        
-				<li><a href="/cv/">CV</a></li>
+				<li><a href="/CV/">CV</a></li>
 	        
 			</ul>
 		</nav>
@@ -143,7 +143,7 @@
 				
 					<li style="width: 50%"><a href="/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/cv/">CV</a></li>
+					<li style="width: 50%"><a href="/CV/">CV</a></li>
 		        
 				</ul>
 			</nav>
@@ -158,55 +158,36 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-topology2023" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-CV" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      拓扑学2023
+      吴利苏的研究成果科普--Popular Science
     </h1>
   
 
         
-        <a href="/2023/09/06/topology2023/" class="archive-article-date">
-  	<time datetime="2023-09-06T12:32:40.747Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-09-06</time>
+        <a href="/2026/01/23/popsci/" class="archive-article-date">
+  	<time datetime="2026-01-25T03:09:06.098Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2026-01-25</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
-      
-        <p>2024.2.25 </p>
-<span id="more"></span>
-<h2 id="拓扑学简介"><a href="#拓扑学简介" class="headerlink" title="拓扑学简介"></a>拓扑学简介</h2><p>拓扑学的英文单词是Topology，词根Topo+logy直意为“地理/位置的研究”。拓扑一词来自其英文单词的音译，“拓扑”两字本意分别有一种“开拓、延拓”和“位置移动”的含义，这和拓扑学的内容恰好暗合。</p>
-<p>简单来说，拓扑学是一种研究几何对象在连续形变下保持不变的性质。这里连续形变可以直观地认为包含拉伸、扭曲、起皱和弯曲，但不能撕裂或粘合。<br>比如在拓扑范畴中，无论是圆形、三角形、矩形，它们都可以连续不折叠地压缩到一个点，所以我们认为它们都是一样的。但是给一个圆环或者圆圈，因为中间有个洞的原因，它没法缩到一个点。<br>所以圆环和圆在拓扑中本质上是两个东西。而拓扑学要做得事情就是如何区分圆环和圆这类事情。</p>
-<p>在数学中，要想区分两个数学对象，我们首先要建立等价关系和等价不变性/量。比如，在线性代数中，对于两个同型矩阵$A$和$B$，若存在可逆矩阵$P$和$Q$，使得</p>
-<script type="math/tex; mode=display">PAQ=B,</script><p>则我们称矩阵$A$和$B$是等价的。<br>但要判断两个同型矩阵$A$和$B$是不是等价的，我们往往不是找定义中的可逆矩阵$P$和$Q$。我们采用的是另外一种思路：由于等价的矩阵具有相同的秩，所以秩不同的矩阵一定不等价。<br>所以判断但要判断两个同型矩阵$A$和$B$是不是等价的，我们先求它们的秩就好了。<br>像这种在等价关系下所具有的相同的性质或者数量特征，我们称之为这个等价关系的等价不变性/量。比如矩阵的秩就是同型矩阵的一种等价不变量，方阵的特征值是同阶方阵的一种相似不变量，<br>正负惯性指数是实对称矩阵的一种合同不变量。从这里，我们可能可以看出秩，特征值，正负惯性指数的作用。</p>
-<p>（等价不变性/量是两个等价的数学对象所具有的共性，很重要！但反过来，具有相同不变性/量的两个数学对象一定是等价的吗？这就是数学上的刚性问题。<br>一般来说，具有相同不变性/量的两个数学对象不是等价的。要想反过来也正确，往往需要加一些限制条件。<br>但万一，具有相同不变性/量的两个数学对象能确保它们是等价的，这时我们称这类不变性/量为完全不变性/量。比如，矩阵的秩就是矩阵等价的一种完全不变量。）</p>
-<p>拓扑学的主要内容就是研究几何对象（拓扑空间）在连续形变（等价关系：同胚、同伦）下的不变性/量。我们这门点集拓扑中学习的不变性有：可数性、分离性、紧性和连通性。<br>后面，我们会考虑利用群环域等等，一些代数性质来给出一些拓扑不变性，这些就是代数拓扑。也会考虑用一些微积分的性质来给出一些拓扑不变性，这些就是微分拓扑。同理，还有组合拓扑、几何拓扑等等。<br>如果我们将来继续学习拓扑学的话，可能会接触下面这些课程或者理论—-点集拓扑、微分拓扑、代数拓扑（基本群，同调理论，上同调理论，同伦理论）、示性类、K-理论、谱序列、配边理论、无穷范畴。。。</p>
-<p>拓扑学现状。</p>
-<h2 id="作业："><a href="#作业：" class="headerlink" title="作业："></a>作业：</h2><ul>
-<li>第一次作业：</li>
-<li>第二次作业：</li>
-<li>第三次作业: </li>
-<li>第四次作业:</li>
-<li>第五次作业：</li>
+ 
+
+
 </ul>
-
+<h2 id="Publications-and-preprints"><a href="#Publications-and-preprints" class="headerlink" title="Publications and preprints"></a>正在搭建</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://doi.org/10.2140/agt.2025.25.55">Topology and geometry of flagness and beltness of simple hanlebodies</a>. <br> (With Zhi lü). Algebraic & Geometric Topology 25 (2025) 55–106.</li>
+</ul>
       
 
       
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-
-      
+          
         
 <div class="share-btn share-icons tooltip-left">
   <div class="tooltip tooltip-east">
@@ -252,7 +233,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="http://s.jiathis.com/qrcode.php?url=http://wulisu.cn/2023/09/06/topology2023/" alt="微信分享二维码">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://wulisu.cn/2022/10/01/CV/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -266,18 +247,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2023/09/06/linearalgebra2023-2024/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          线性代数2023-2024
-        
-      </div>
-    </a>
   
-  
-    <a href="/2023/08/05/seminar2023/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">华东地区拓扑学小型研讨会 -- 2023 青岛</div>
+    <a href="/2022/08/07/linearalgebra/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Curriculum Vitae</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -304,7 +276,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8B%93%E6%89%91%E5%AD%A6%E7%AE%80%E4%BB%8B"><span class="toc-number">1.</span> <span class="toc-text">拓扑学简介</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BD%9C%E4%B8%9A%EF%BC%9A"><span class="toc-number">2.</span> <span class="toc-text">作业：</span></a></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#About-Me"><span class="toc-number">1.</span> <span class="toc-text">About Me</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Educational-Experience"><span class="toc-number">2.</span> <span class="toc-text">Educational Experience</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Teaching-Experience"><span class="toc-number">3.</span> <span class="toc-text">Teaching Experience</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Publications-and-preprints"><span class="toc-number">4.</span> <span class="toc-text">Publications and preprints</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Drafts"><span class="toc-number">5.</span> <span class="toc-text">Drafts</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Conferences-and-Slides"><span class="toc-number">6.</span> <span class="toc-text">Conferences and Slides</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Research-Project"><span class="toc-number">7.</span> <span class="toc-text">Research Project</span></a></li></ol>
                     </div>
                 </span>
             </div>
@@ -321,14 +293,15 @@
 
   
   
-  <div id="SOHUCS" sid="topology2023" ></div> 
-<script type="text/javascript"> 
-(function(){ 
-var appid = "cyw0eYzif"; 
-var conf = "prod_ce2d67da838034d8855bfc5a5fab6faf"; 
-var width = window.innerWidth || document.documentElement.clientWidth; 
-if (width < 960) { 
-window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="//changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("//changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
+  <!--PC版-->
+<div id="SOHUCS" ></div>
+<script charset="utf-8" type="text/javascript" src="https://cy-cdn.kuaizhan.com/upload/changyan.js" ></script>
+<script type="text/javascript">
+window.changyan.api.config({
+appid: 'cyw0eYzif',
+conf: 'prod_ce2d67da838034d8855bfc5a5fab6faf'
+});
+</script>
   
 
   
@@ -343,7 +316,7 @@ window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="tex
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2026 Lisu Wu
+    		&copy; 2022 Lisu Wu
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
@@ -548,7 +521,7 @@ MathJax.Hub.Queue(function() {
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">一根快乐的韭零后，一只卷卷向上的青椒，一头嵙数的核动力驴。</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">一根快乐的韭零后，一只卷卷向上的青椒。</div>
   	  	
     	</section>
     
